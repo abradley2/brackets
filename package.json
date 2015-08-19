@@ -1,0 +1,19 @@
+{
+  "name": "brackets",
+  "version": "0.1.0",
+  "description": "A JavaScript library for managing round robin and double elimination tournament events",
+  "main": "app.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abradley2/brackets.git"
+  },
+  "author": "Tony Bradley",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abradley2/brackets/issues"
+  },
+  "homepage": "https://github.com/abradley2/brackets#readme"
+}
