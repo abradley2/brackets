@@ -2,7 +2,7 @@
   "name": "brackets",
   "version": "0.1.0",
   "description": "A JavaScript library for managing round robin and double elimination tournament events",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "test": "gulp test"
   },
@@ -15,5 +15,14 @@
   "bugs": {
     "url": "https://github.com/abradley2/brackets/issues"
   },
-  "homepage": "https://github.com/abradley2/brackets#readme"
+  "homepage": "https://github.com/abradley2/brackets#readme",
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-mocha": "^2.1.3"
+  },
+  "dependencies": {
+    "lodash": "^3.10.1"
+  }
 }
