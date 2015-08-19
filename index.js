@@ -1,2 +1,4 @@
-require('coffee-script/register');
-require('./src/main.coffee');
+_ = require('lodash');
+var Brackets = require('./build/Brackets.js');
+
+module.exports = Brackets;
