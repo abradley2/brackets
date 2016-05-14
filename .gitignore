@@ -2,14 +2,6 @@
 #######################
 node_modules/
 
-# Ignore Build #
-################
-build/
-
-# Ignore Dist #
-###############
-dist/
-
 # Ignore Log Files #
 ####################
-*.log
+**/*.log
