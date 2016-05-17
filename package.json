@@ -4,9 +4,10 @@
   "description": "A JavaScript library for managing round-robin, single-elimination and double-elimination tournaments",
   "main": "index.js",
   "scripts": {
-    "build": "browserify src/Brackets.coffee --transform coffeeify --standalone Brackets --outfile Brackets.js && coffee --bare --compile --output dist/ src/",
-    "watch": "watchify src/Brackets.coffee --transform coffeeify --standalone Brackets --outfile Brackets.js",
-    "test": "mocha --compilers coffee:coffee-script/register"
+    "build": "browserify src/Brackets.coffee --extension .coffee --transform coffeeify --standalone Brackets --outfile Brackets.js && coffee --bare --compile --output dist/ src/",
+    "watch": "watchify src/Brackets.coffee --extension .coffee --transform coffeeify --standalone Brackets --outfile Brackets.js",
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "test-watch": "mocha --watch --compilers coffee:coffee-script/register"
   },
   "repository": {
     "type": "git",

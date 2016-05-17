@@ -1,18 +1,12 @@
 sinon  = require 'sinon'
 chai   = require 'chai'
 
-Brackets = require '../src/Brackets.coffee'
-
-describe 'Brackets Base', ->
-
-    it 'should should have Double Elimination', ->
-        chai.assert.property Brackets, 'DoubleElimination'
+Brackets = require '../src/Brackets'
 
 
+describe 'Single Elimination', ->
 
-describe 'Double Elimination', ->
-
-    it 'should create instance of DoubleElimination', ->
+    it 'should create instance of Single Elimination', ->
 
         entrants = [
             'tony',
@@ -28,5 +22,6 @@ describe 'Double Elimination', ->
             'dasha'
         ]
         
+        sut = new Brackets.SingleElimination entrants
 
-        chai.assert.isObject new Brackets.DoubleElimination entrants
+        chai.assert.isObject sut

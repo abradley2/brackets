@@ -1,7 +1,7 @@
-class DoubleElimination
+class RoundRobin
 
     constructor: (entrants) ->
         @entrants = entrants
 
 
-module.exports = DoubleElimination
+module.exports = RoundRobin

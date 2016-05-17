@@ -1,3 +1,7 @@
 module.exports =
 
-    DoubleElimination: require './DoubleElimination.coffee'
+    SingleElimination: require './SingleElimination'
+    
+    DoubleElimination: require './DoubleElimination'
+
+    RoundRobin: require './RoundRobin'
